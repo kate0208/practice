@@ -1,0 +1,50 @@
+# Android Studio
+.idea/
+*.iml
+
+# 本機設定
+local.properties
+
+# Gradle
+.gradle/
+build/
+**/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# 日誌
+*.log
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Jetpack Compose
+.compose-cache/
+
+# NDK
+obj/
+
+# Kotlin
+*.kotlin_module
+
+# Firebase / Crashlytics
+fabric.properties
+crashlytics.properties
+app/google-services.json
+app/google-services.plist
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# 其他產出檔
+*.apk
+*.ap_
+*.aab
+*.keystore
